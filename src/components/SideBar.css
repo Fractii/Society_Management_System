@@ -1,0 +1,35 @@
+.sidebar {
+  width: 50px; /* Adjust width as needed */
+  height: 100vh; /* Full height of the sidebar */
+  background-color: #c4a464; /* Background color of the sidebar */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start; /* Align icons to the top */
+  align-items: center;
+  position: relative; /* Add relative positioning to act as a reference */
+}
+
+.icon-container {
+  padding: 10px; /* Adjust padding as needed */
+  cursor: pointer;
+}
+
+.icon-style {
+  font-size: 24px; /* Adjust icon size as needed */
+  color: white; /* Set icon color to white */
+  margin-top: 10px; /* Adjust top margin to lower the icons vertically */
+}
+
+.logout-text-container {
+  position: absolute;
+  bottom: 10px; /* Adjust bottom position as needed */
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.logout-text {
+  font-size: 14px; /* Adjust font size as needed */
+  color: white; /* Set text color to white */
+  cursor: pointer; /* Show cursor as pointer on hover */
+  font-weight: bold;
+}

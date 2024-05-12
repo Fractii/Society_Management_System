@@ -1,0 +1,19 @@
+
+/* Media query for small screens (e.g., mobiles) */
+@media (max-width: 768px) {
+    .form {
+      padding: 10px;  /* Reduce padding on smaller screens */
+    }
+  
+    .row {
+      flex-direction: column; /* Stack form elements vertically */
+    }
+  
+    .row .col-md-6 {
+      width: 100%; /* Make each form element take full width */
+      margin-bottom: 10px;  /* Add some space between elements */
+    }
+    textarea{
+        width: 100%;
+    }
+  }

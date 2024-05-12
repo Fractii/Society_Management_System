@@ -1,5 +1,35 @@
+/* Hide the scrollbar */
+html {
+  overflow-y: scroll;
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* Internet Explorer 10+ */
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+body::-webkit-scrollbar {
+  display: none;
+}
+
+/* Ensure content can still be scrolled */
+body {
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.society-names {
+  width: 100%; /* Set width to 100% */
+  border: 1px solid white;
+  padding: 0px;
+  color: white; /* Set text color to white */
+}
+
+.society-names ul {
+  list-style-type: none; /* Remove bullet points */
+}
+
 .App {
   text-align: center;
+  background-color: #00264d;
 }
 
 .App-logo {
@@ -14,14 +44,10 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #00264d;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
 .App-link {
